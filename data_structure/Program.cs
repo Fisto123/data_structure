@@ -6,7 +6,7 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine(MissingNumber(new int[] { 0, 1})); // EXPECTED [5]
+        Console.WriteLine(MissingNumber(new int[] { 0, 1})); 
     }
 
     static string MissingNumber(int[] nums)
@@ -22,6 +22,6 @@ class Program
             }
         }
 
-        return  string.Join("", missingList) ;
+        return  string.Join("",  missingList) ;
     }
 }
